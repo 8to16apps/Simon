@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cstjn3atxxaon"
-path="res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"
+uid="uid://bbg1k2a3hnddj"
+path="res://.godot/imported/Yellow_press.png-c4d93d715385f1f6b51cbee2ab07fb7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=["res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"]
+source_file="res://SHIMMY/Assets/Buttons/Yellow_press.png"
+dest_files=["res://.godot/imported/Yellow_press.png-c4d93d715385f1f6b51cbee2ab07fb7f.ctex"]
 
 [params]
 

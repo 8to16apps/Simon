@@ -1,0 +1,180 @@
+[gd_scene load_steps=15 format=3 uid="uid://c2dfbysxppged"]
+
+[ext_resource type="Texture2D" uid="uid://qusnv77uulf8" path="res://SHIMMY/Assets/Buttons/Red.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://rkukjusuabe3" path="res://SHIMMY/Assets/Buttons/Red_press.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cl5xegcjxxh4y" path="res://SHIMMY/Assets/Buttons/Green.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://22rwsa0w3cgt" path="res://SHIMMY/Assets/Buttons/Green_press.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bhish4wchvup5" path="res://SHIMMY/Assets/Buttons/Blue.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dad3tvatqe0wy" path="res://SHIMMY/Assets/Buttons/Blue_press.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://nbwagnmixlua" path="res://SHIMMY/Assets/Buttons/Yellow.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bbg1k2a3hnddj" path="res://SHIMMY/Assets/Buttons/Yellow_press.png" id="8"]
+[ext_resource type="Script" path="res://SHIMMY/Scripts/Main.gd" id="10"]
+[ext_resource type="AudioStream" uid="uid://bohw28w86i8om" path="res://SHIMMY/Assets/SFX/do.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bvn472awm8tcc" path="res://SHIMMY/Assets/SFX/fa.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://bvggjihtvls1i" path="res://SHIMMY/Assets/SFX/re.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://cs2ewf63f3jjh" path="res://SHIMMY/Assets/SFX/mi.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cfdarfllmqf6d" path="res://SHIMMY/Assets/SFX/error.wav" id="15"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("10")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="ScoreContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.13
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/ScoreContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 384
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 384
+theme_override_constants/margin_bottom = 16
+
+[node name="ScoreLabel" type="Label" parent="PanelContainer/VBoxContainer/ScoreContainer/MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "00"
+horizontal_alignment = 1
+
+[node name="ButtonGrid" type="GridContainer" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+columns = 2
+
+[node name="RedContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+layout_mode = 2
+
+[node name="Red" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/RedContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+shortcut_in_tooltip = false
+texture_normal = ExtResource("1")
+texture_pressed = ExtResource("2")
+
+[node name="AIRed" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/RedContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+texture = ExtResource("2")
+expand_mode = 1
+
+[node name="GreenContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+layout_mode = 2
+
+[node name="Green" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+shortcut_in_tooltip = false
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+
+[node name="AIGreen" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+texture = ExtResource("4")
+expand_mode = 1
+
+[node name="YellowContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+layout_mode = 2
+
+[node name="Yellow" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+shortcut_in_tooltip = false
+texture_normal = ExtResource("7")
+texture_pressed = ExtResource("8")
+
+[node name="AIYellow" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+texture = ExtResource("8")
+expand_mode = 1
+
+[node name="BlueContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+layout_mode = 2
+
+[node name="Blue" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/BlueContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+shortcut_in_tooltip = false
+texture_normal = ExtResource("5")
+texture_pressed = ExtResource("6")
+
+[node name="AIBlue" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/BlueContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+texture = ExtResource("6")
+expand_mode = 1
+
+[node name="StartContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.13
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/StartContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 384
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 384
+theme_override_constants/margin_bottom = 16
+
+[node name="StartButton" type="Button" parent="PanelContainer/VBoxContainer/StartContainer/MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "START"
+
+[node name="SFX" type="Node" parent="."]
+
+[node name="Do" type="AudioStreamPlayer" parent="SFX"]
+unique_name_in_owner = true
+stream = ExtResource("11")
+
+[node name="Re" type="AudioStreamPlayer" parent="SFX"]
+unique_name_in_owner = true
+stream = ExtResource("13")
+
+[node name="Mi" type="AudioStreamPlayer" parent="SFX"]
+unique_name_in_owner = true
+stream = ExtResource("14")
+
+[node name="Fa" type="AudioStreamPlayer" parent="SFX"]
+unique_name_in_owner = true
+stream = ExtResource("12")
+
+[node name="ERROR" type="AudioStreamPlayer" parent="SFX"]
+unique_name_in_owner = true
+stream = ExtResource("15")
+
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/RedContainer/Red" to="." method="_checkPlayerButton" binds= [0]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer/Green" to="." method="_checkPlayerButton" binds= [1]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer/Yellow" to="." method="_checkPlayerButton" binds= [3]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/BlueContainer/Blue" to="." method="_checkPlayerButton" binds= [2]]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/StartContainer/MarginContainer/StartButton" to="." method="_on_Button_pressed"]
