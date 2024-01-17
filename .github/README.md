@@ -21,12 +21,15 @@ Original Project by >link project here<
 
 ## FAQ
 Q: Why is this project named SHIMMY?
+
 A: As I was looking for a catchy name for this project, I came across this website:
 https://onomasticsoutsidethebox.wordpress.com/2017/03/06/the-many-forms-of-simon/
 From the site: "**Shimon** is the original Hebrew form. I think the nickname **Shimmy** is just so cute!"
 I thought that "Shimmy" was catchy and it's related to the original name, so I went with it!
 
+--
 Q: What's with the lock theme?
+
 A: The lock aspect of the game comes from the word "shimming". "Shimming is defined as **violating a lock by inserting a foreign object into the latch mechanism**." While there is no shimming, you do crack the code of a lock by reaching the respective level.
 Each cracked lock will unlock BONUS features (3 in total).
 
