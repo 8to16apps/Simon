@@ -17,8 +17,7 @@ Made with Godot v4.2.1 stable.
 
 For license information see [LICENSE](LICENSE) file.
 
-Original Project by >link project here<
-
+Original project: [Simon](https://github.com/8to16apps/Simon) by [8to16app](https://github.com/8to16apps)
 ## FAQ
 Q: Why is this project named SHIMMY?
 
