@@ -1,4 +1,2 @@
-res://Root.tscn
-res://Root.gd
-res://SHIMMY/Scenes/Main.tscn
 res://SHIMMY/Scripts/Main.gd
+res://SHIMMY/Scenes/Main.tscn

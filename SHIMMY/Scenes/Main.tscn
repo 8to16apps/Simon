@@ -40,6 +40,8 @@ alignment = 1
 
 [node name="ScoreContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.13
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/ScoreContainer"]
 layout_mode = 2
@@ -57,7 +59,7 @@ horizontal_alignment = 1
 [node name="ButtonGrid" type="GridContainer" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-size_flags_vertical = 4
+size_flags_vertical = 6
 columns = 2
 
 [node name="RedContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
@@ -134,6 +136,8 @@ expand_mode = 1
 
 [node name="StartContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.13
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/StartContainer"]
 layout_mode = 2
@@ -169,4 +173,8 @@ stream = ExtResource("12")
 unique_name_in_owner = true
 stream = ExtResource("15")
 
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/RedContainer/Red" to="." method="_checkPlayerButton" binds= [0]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer/Green" to="." method="_checkPlayerButton" binds= [1]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer/Yellow" to="." method="_checkPlayerButton" binds= [3]]
+[connection signal="button_up" from="PanelContainer/VBoxContainer/ButtonGrid/BlueContainer/Blue" to="." method="_checkPlayerButton" binds= [2]]
 [connection signal="pressed" from="PanelContainer/VBoxContainer/StartContainer/MarginContainer/StartButton" to="." method="_on_Button_pressed"]
