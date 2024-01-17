@@ -6,25 +6,21 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[  ]
-_global_script_class_icons={
-
-}
+config_version=5
 
 [application]
 
-config/name="Simon"
-config/description="Small Prototype of the classic game simon."
-run/main_scene="res://Root.tscn"
+config/name="SHIMMY"
+config/description="Prototype inspired by the classic game \"Simon\". Made with Godot 4."
+run/main_scene="res://SHIMMY/Scenes/Main.tscn"
+config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
 
 [display]
 
-window/size/height=768
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
+window/size/height=768
 
 [rendering]
 

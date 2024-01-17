@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cstjn3atxxaon"
-path="res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"
+uid="uid://nbwagnmixlua"
+path="res://.godot/imported/Yellow.png-c5aef83d2b9a8d18ddc636b9978a19ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=["res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"]
+source_file="res://SHIMMY/Assets/Buttons/Yellow.png"
+dest_files=["res://.godot/imported/Yellow.png-c5aef83d2b9a8d18ddc636b9978a19ac.ctex"]
 
 [params]
 
