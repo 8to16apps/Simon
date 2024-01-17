@@ -1,3 +1,7 @@
+TextureRect
+Panel
+Label
+TextureButton
 MarginContainer
 PanelContainer
 VBoxContainer

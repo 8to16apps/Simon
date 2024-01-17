@@ -1,15 +1,18 @@
-[gd_scene load_steps=15 format=3 uid="uid://c2dfbysxppged"]
+[gd_scene load_steps=18 format=3 uid="uid://c2dfbysxppged"]
 
-[ext_resource type="Texture2D" uid="uid://qusnv77uulf8" path="res://SHIMMY/Assets/Buttons/Red.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://rkukjusuabe3" path="res://SHIMMY/Assets/Buttons/Red_press.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cl5xegcjxxh4y" path="res://SHIMMY/Assets/Buttons/Green.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://22rwsa0w3cgt" path="res://SHIMMY/Assets/Buttons/Green_press.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://bhish4wchvup5" path="res://SHIMMY/Assets/Buttons/Blue.png" id="5"]
-[ext_resource type="Texture2D" uid="uid://dad3tvatqe0wy" path="res://SHIMMY/Assets/Buttons/Blue_press.png" id="6"]
-[ext_resource type="Texture2D" uid="uid://nbwagnmixlua" path="res://SHIMMY/Assets/Buttons/Yellow.png" id="7"]
-[ext_resource type="Texture2D" uid="uid://bbg1k2a3hnddj" path="res://SHIMMY/Assets/Buttons/Yellow_press.png" id="8"]
+[ext_resource type="Theme" uid="uid://cpfb1b4fr2ocn" path="res://SHIMMY/Theme/custom_theme.tres" id="1_y4rae"]
+[ext_resource type="Texture2D" uid="uid://brwg4tsprf2j7" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button08.png" id="2_84buu"]
+[ext_resource type="Texture2D" uid="uid://bpbimopi370lm" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button09.png" id="3_dqdde"]
+[ext_resource type="Texture2D" uid="uid://c8kw0nt10t8kl" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button11.png" id="4_hbr8k"]
+[ext_resource type="Texture2D" uid="uid://dqpuy6cwgkt46" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button12.png" id="5_a5qow"]
+[ext_resource type="Texture2D" uid="uid://bparqprwi2soj" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button11.png" id="6_58is8"]
+[ext_resource type="Texture2D" uid="uid://dbihu61x8j2s5" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button12.png" id="7_jm1p8"]
+[ext_resource type="Texture2D" uid="uid://dpoah06rwaejh" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button11.png" id="8_bhj87"]
+[ext_resource type="Texture2D" uid="uid://dgn34we1bc4d" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button12.png" id="9_w2sns"]
 [ext_resource type="Script" path="res://SHIMMY/Scripts/Main.gd" id="10"]
+[ext_resource type="Texture2D" uid="uid://c0a6qx5n1ic6f" path="res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button01.png" id="10_27ram"]
 [ext_resource type="AudioStream" uid="uid://bohw28w86i8om" path="res://SHIMMY/Assets/SFX/do.wav" id="11"]
+[ext_resource type="Texture2D" uid="uid://dxee8mrbago3k" path="res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button00.png" id="11_h0k0q"]
 [ext_resource type="AudioStream" uid="uid://bvn472awm8tcc" path="res://SHIMMY/Assets/SFX/fa.wav" id="12"]
 [ext_resource type="AudioStream" uid="uid://bvggjihtvls1i" path="res://SHIMMY/Assets/SFX/re.wav" id="13"]
 [ext_resource type="AudioStream" uid="uid://cs2ewf63f3jjh" path="res://SHIMMY/Assets/SFX/mi.wav" id="14"]
@@ -24,6 +27,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+theme = ExtResource("1_y4rae")
 script = ExtResource("10")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
@@ -40,7 +44,8 @@ alignment = 1
 
 [node name="ScoreContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 3
+size_flags_horizontal = 4
+size_flags_vertical = 2
 size_flags_stretch_ratio = 0.13
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/ScoreContainer"]
@@ -50,9 +55,28 @@ theme_override_constants/margin_top = 16
 theme_override_constants/margin_right = 384
 theme_override_constants/margin_bottom = 16
 
-[node name="ScoreLabel" type="Label" parent="PanelContainer/VBoxContainer/ScoreContainer/MarginContainer"]
-unique_name_in_owner = true
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/VBoxContainer/ScoreContainer/MarginContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("11_h0k0q")
+
+[node name="ScoreLabel" type="Label" parent="PanelContainer/VBoxContainer/ScoreContainer/MarginContainer/TextureRect"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -36.0
+offset_top = -17.0
+offset_right = 36.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
 text = "00"
 horizontal_alignment = 1
 
@@ -63,24 +87,29 @@ size_flags_vertical = 6
 columns = 2
 
 [node name="RedContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
+size_flags_vertical = 8
 
 [node name="Red" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/RedContainer"]
 unique_name_in_owner = true
 layout_mode = 2
 focus_mode = 0
 shortcut_in_tooltip = false
-texture_normal = ExtResource("1")
-texture_pressed = ExtResource("2")
+texture_normal = ExtResource("2_84buu")
+texture_pressed = ExtResource("3_dqdde")
+stretch_mode = 5
 
 [node name="AIRed" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/RedContainer"]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
-texture = ExtResource("2")
+texture = ExtResource("3_dqdde")
 expand_mode = 1
+stretch_mode = 5
 
 [node name="GreenContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
 
 [node name="Green" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer"]
@@ -88,17 +117,20 @@ unique_name_in_owner = true
 layout_mode = 2
 focus_mode = 0
 shortcut_in_tooltip = false
-texture_normal = ExtResource("3")
-texture_pressed = ExtResource("4")
+texture_normal = ExtResource("4_hbr8k")
+texture_pressed = ExtResource("5_a5qow")
+stretch_mode = 5
 
 [node name="AIGreen" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/GreenContainer"]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
-texture = ExtResource("4")
+texture = ExtResource("5_a5qow")
 expand_mode = 1
+stretch_mode = 5
 
 [node name="YellowContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
+custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
 
 [node name="Yellow" type="TextureButton" parent="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer"]
@@ -106,15 +138,17 @@ unique_name_in_owner = true
 layout_mode = 2
 focus_mode = 0
 shortcut_in_tooltip = false
-texture_normal = ExtResource("7")
-texture_pressed = ExtResource("8")
+texture_normal = ExtResource("6_58is8")
+texture_pressed = ExtResource("7_jm1p8")
+stretch_mode = 5
 
 [node name="AIYellow" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/YellowContainer"]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
-texture = ExtResource("8")
+texture = ExtResource("7_jm1p8")
 expand_mode = 1
+stretch_mode = 5
 
 [node name="BlueContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer/ButtonGrid"]
 layout_mode = 2
@@ -124,32 +158,59 @@ unique_name_in_owner = true
 layout_mode = 2
 focus_mode = 0
 shortcut_in_tooltip = false
-texture_normal = ExtResource("5")
-texture_pressed = ExtResource("6")
+texture_normal = ExtResource("8_bhj87")
+texture_pressed = ExtResource("9_w2sns")
+stretch_mode = 5
 
 [node name="AIBlue" type="TextureRect" parent="PanelContainer/VBoxContainer/ButtonGrid/BlueContainer"]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
-texture = ExtResource("6")
+texture = ExtResource("9_w2sns")
 expand_mode = 1
+stretch_mode = 5
 
 [node name="StartContainer" type="PanelContainer" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 3
+size_flags_horizontal = 4
+size_flags_vertical = 10
 size_flags_stretch_ratio = 0.13
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer/VBoxContainer/StartContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_constants/margin_left = 384
 theme_override_constants/margin_top = 16
 theme_override_constants/margin_right = 384
 theme_override_constants/margin_bottom = 16
 
-[node name="StartButton" type="Button" parent="PanelContainer/VBoxContainer/StartContainer/MarginContainer"]
+[node name="StartButton" type="TextureButton" parent="PanelContainer/VBoxContainer/StartContainer/MarginContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("10_27ram")
+texture_pressed = ExtResource("11_h0k0q")
+stretch_mode = 3
+
+[node name="StartLabel" type="Label" parent="PanelContainer/VBoxContainer/StartContainer/MarginContainer/StartButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -36.0
+offset_top = -17.0
+offset_right = 36.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
 text = "START"
+horizontal_alignment = 1
 
 [node name="SFX" type="Node" parent="."]
 

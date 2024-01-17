@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhish4wchvup5"
-path="res://.godot/imported/Blue.png-056d6d03342ef4a84df14944e58c6a16.ctex"
+uid="uid://dgn34we1bc4d"
+path="res://.godot/imported/blue_button12.png-e12e17a6150cc47a887fb6c6bf115256.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SHIMMY/Assets/Buttons/Blue.png"
-dest_files=["res://.godot/imported/Blue.png-056d6d03342ef4a84df14944e58c6a16.ctex"]
+source_file="res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button12.png"
+dest_files=["res://.godot/imported/blue_button12.png-e12e17a6150cc47a887fb6c6bf115256.ctex"]
 
 [params]
 
