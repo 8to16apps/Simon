@@ -1,7 +1,7 @@
 >banner here<
 
 
-SHIMMY is an open-source Prototype inspired by the classic game "Simon" made with the [Godot Game Engine](https://godotengine.org).
+SHIMMY is an open-source prototype inspired by the classic game "Simon" made with the [Godot Game Engine](https://godotengine.org).
 
 
 ## Preview
