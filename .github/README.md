@@ -33,8 +33,11 @@ I thought that "Shimmy" was catchy and it's related to the original name, so I w
 Q: What's with the lock theme?
 
 A: The lock aspect of the game comes from the word "shimming". 
+
 "Shimming is defined as **violating a lock by inserting a foreign object into the latch mechanism**." 
+
 While there is no shimming, you do crack the code of a lock by reaching the respective level.
+
 Each cracked lock will unlock BONUS features (3 in total).
 
 ## Support
