@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705454334
-icon.png::CompressedTexture2D::6076034870002299889::1705448254::1705454043::1::::<><>::
+::res://::1705498857
+icon2.png::CompressedTexture2D::7710412176199666348::1705493803::1705498858::1::::<><>::
 ::res://SHIMMY/::1705454043
 ::res://SHIMMY/Assets/::1705454043
 ::res://SHIMMY/Assets/Buttons/::1705454043
@@ -21,8 +21,8 @@ mi.wav::AudioStreamWAV::6092261219453044941::1705454043::1705454043::1::::<><>::
 re.wav::AudioStreamWAV::3873153472610104844::1705454043::1705454043::1::::<><>::
 si.wav::AudioStreamWAV::1911708263600287516::1705454043::1705454043::1::::<><>::
 sol.wav::AudioStreamWAV::3270261895773845672::1705454043::1705454043::1::::<><>::
-::res://SHIMMY/Scenes/::1705454043
-Main.tscn::PackedScene::6674439939065532395::1705454043::0::1::::<><>::uid://qusnv77uulf8::::res://SHIMMY/Assets/Buttons/Red.png<>uid://rkukjusuabe3::::res://SHIMMY/Assets/Buttons/Red_press.png<>uid://cl5xegcjxxh4y::::res://SHIMMY/Assets/Buttons/Green.png<>uid://22rwsa0w3cgt::::res://SHIMMY/Assets/Buttons/Green_press.png<>uid://bhish4wchvup5::::res://SHIMMY/Assets/Buttons/Blue.png<>uid://dad3tvatqe0wy::::res://SHIMMY/Assets/Buttons/Blue_press.png<>uid://nbwagnmixlua::::res://SHIMMY/Assets/Buttons/Yellow.png<>uid://bbg1k2a3hnddj::::res://SHIMMY/Assets/Buttons/Yellow_press.png<>res://SHIMMY/Scripts/Main.gd<>uid://bohw28w86i8om::::res://SHIMMY/Assets/SFX/do.wav<>uid://bvn472awm8tcc::::res://SHIMMY/Assets/SFX/fa.wav<>uid://bvggjihtvls1i::::res://SHIMMY/Assets/SFX/re.wav<>uid://cs2ewf63f3jjh::::res://SHIMMY/Assets/SFX/mi.wav<>uid://cfdarfllmqf6d::::res://SHIMMY/Assets/SFX/error.wav
+::res://SHIMMY/Scenes/::1705464194
+Main.tscn::PackedScene::6674439939065532395::1705464194::0::1::::<><>::uid://qusnv77uulf8::::res://SHIMMY/Assets/Buttons/Red.png<>uid://rkukjusuabe3::::res://SHIMMY/Assets/Buttons/Red_press.png<>uid://cl5xegcjxxh4y::::res://SHIMMY/Assets/Buttons/Green.png<>uid://22rwsa0w3cgt::::res://SHIMMY/Assets/Buttons/Green_press.png<>uid://bhish4wchvup5::::res://SHIMMY/Assets/Buttons/Blue.png<>uid://dad3tvatqe0wy::::res://SHIMMY/Assets/Buttons/Blue_press.png<>uid://nbwagnmixlua::::res://SHIMMY/Assets/Buttons/Yellow.png<>uid://bbg1k2a3hnddj::::res://SHIMMY/Assets/Buttons/Yellow_press.png<>res://SHIMMY/Scripts/Main.gd<>uid://bohw28w86i8om::::res://SHIMMY/Assets/SFX/do.wav<>uid://bvn472awm8tcc::::res://SHIMMY/Assets/SFX/fa.wav<>uid://bvggjihtvls1i::::res://SHIMMY/Assets/SFX/re.wav<>uid://cs2ewf63f3jjh::::res://SHIMMY/Assets/SFX/mi.wav<>uid://cfdarfllmqf6d::::res://SHIMMY/Assets/SFX/error.wav
 ::res://SHIMMY/Scripts/::1705454043
 Main.gd::GDScript::-1::1705454043::0::1::::<>Control<>::
 ::res://SHIMMY/Theme/::1705453310

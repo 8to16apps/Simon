@@ -14,7 +14,7 @@ config/name="SHIMMY"
 config/description="Prototype inspired by the classic game \"Simon\". Made with Godot 4."
 run/main_scene="res://SHIMMY/Scenes/Main.tscn"
 config/features=PackedStringArray("4.2")
-config/icon="res://icon.png"
+config/icon="res://icon2.png"
 
 [display]
 
