@@ -1,39 +1,74 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705501117
-icon2.png::CompressedTexture2D::7710412176199666348::1705493803::1705498858::1::::<><>::
-::res://SHIMMY/::1705454043
-::res://SHIMMY/Assets/::1705499929
-::res://SHIMMY/Assets/KenneyUI/::1705499414
-::res://SHIMMY/Assets/KenneyUI/Buttons/::1705499961
-::res://SHIMMY/Assets/KenneyUI/Buttons/Main/::1705501449
-blue_button11.png::CompressedTexture2D::8241009856538457097::1705499467::1705499955::1::::<><>::
-blue_button12.png::CompressedTexture2D::223793677953137293::1705501413::1705501357::1::::<><>::
-green_button11.png::CompressedTexture2D::7111098117040703627::1705499467::1705499955::1::::<><>::
-green_button12.png::CompressedTexture2D::8314508046829241397::1705501430::1705501357::1::::<><>::
-grey_button12.png::CompressedTexture2D::6489702727358458049::1705499467::1705499955::1::::<><>::
-grey_button13.png::CompressedTexture2D::5012156315030342361::1705501437::1705501451::1::::<><>::
-red_button08.png::CompressedTexture2D::3625464452563416790::1705499467::1705499955::1::::<><>::
-red_button09.png::CompressedTexture2D::3441825640387793126::1705501443::1705501451::1::::<><>::
-yellow_button11.png::CompressedTexture2D::3440314914966374789::1705499467::1705499955::1::::<><>::
-yellow_button12.png::CompressedTexture2D::7246428321055545638::1705501449::1705501451::1::::<><>::
-::res://SHIMMY/Assets/KenneyUI/Buttons/Start/::1705501117
-grey_button00.png::CompressedTexture2D::8782165421527779722::1705500093::1705500093::1::::<><>::
-grey_button01.png::CompressedTexture2D::6529474512822159275::1705500093::1705500093::1::::<><>::
-::res://SHIMMY/Assets/SFX/::1705454043
-do.wav::AudioStreamWAV::3384900897977667644::1705454043::1705454043::1::::<><>::
-error.wav::AudioStreamWAV::5130009357460987285::1705454043::1705454043::1::::<><>::
-fa.wav::AudioStreamWAV::3889042668237130650::1705454043::1705454043::1::::<><>::
-la.wav::AudioStreamWAV::991964836667729594::1705454043::1705454043::1::::<><>::
-mi.wav::AudioStreamWAV::6092261219453044941::1705454043::1705454043::1::::<><>::
-re.wav::AudioStreamWAV::3873153472610104844::1705454043::1705454043::1::::<><>::
-si.wav::AudioStreamWAV::1911708263600287516::1705454043::1705454043::1::::<><>::
-sol.wav::AudioStreamWAV::3270261895773845672::1705454043::1705454043::1::::<><>::
-::res://SHIMMY/Scenes/::1705501359
-Main.tscn::PackedScene::6674439939065532395::1705501359::0::1::::<><>::uid://cpfb1b4fr2ocn::::res://SHIMMY/Theme/custom_theme.tres<>uid://brwg4tsprf2j7::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button08.png<>uid://bpbimopi370lm::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button09.png<>uid://c8kw0nt10t8kl::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button11.png<>uid://dqpuy6cwgkt46::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button12.png<>uid://bparqprwi2soj::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button11.png<>uid://dbihu61x8j2s5::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button12.png<>uid://dpoah06rwaejh::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button11.png<>uid://dgn34we1bc4d::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button12.png<>res://SHIMMY/Scripts/Main.gd<>uid://c0a6qx5n1ic6f::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button01.png<>uid://bohw28w86i8om::::res://SHIMMY/Assets/SFX/do.wav<>uid://dxee8mrbago3k::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button00.png<>uid://bvn472awm8tcc::::res://SHIMMY/Assets/SFX/fa.wav<>uid://bvggjihtvls1i::::res://SHIMMY/Assets/SFX/re.wav<>uid://cs2ewf63f3jjh::::res://SHIMMY/Assets/SFX/mi.wav<>uid://cfdarfllmqf6d::::res://SHIMMY/Assets/SFX/error.wav
-::res://SHIMMY/Scripts/::1705454043
+::res://::1705602118
+icon2.png::CompressedTexture2D::7710412176199666348::1705495026::1705525479::1::::<><>::
+::res://SHIMMY/::1705503603
+::res://SHIMMY/Assets/::1705503603
+::res://SHIMMY/Assets/KenneyUI/::1705503603
+::res://SHIMMY/Assets/KenneyUI/Buttons/::1705602042
+::res://SHIMMY/Assets/KenneyUI/Buttons/Main/::1705601877
+blue_button11.png::CompressedTexture2D::8241009856538457097::1705495026::1705525479::1::::<><>::
+blue_button12.png::CompressedTexture2D::223793677953137293::1705495026::1705525479::1::::<><>::
+green_button11.png::CompressedTexture2D::7111098117040703627::1705495026::1705525479::1::::<><>::
+green_button12.png::CompressedTexture2D::8314508046829241397::1705495026::1705525479::1::::<><>::
+grey_button12.png::CompressedTexture2D::6489702727358458049::1705495026::1705525479::1::::<><>::
+grey_button13.png::CompressedTexture2D::5012156315030342361::1705495026::1705525479::1::::<><>::
+red_button08.png::CompressedTexture2D::3625464452563416790::1705495026::1705525479::1::::<><>::
+red_button09.png::CompressedTexture2D::3441825640387793126::1705495026::1705525479::1::::<><>::
+yellow_button11.png::CompressedTexture2D::3440314914966374789::1705495026::1705525479::1::::<><>::
+yellow_button12.png::CompressedTexture2D::7246428321055545638::1705495026::1705525479::1::::<><>::
+::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/::1705601168
+tile_0051.png::CompressedTexture2D::2453640772674356056::1705525576::1705525576::1::::<><>::
+tile_0052.png::CompressedTexture2D::7823424733016611368::1705525576::1705525576::1::::<><>::
+tile_0053.png::CompressedTexture2D::4021825910134322692::1705525576::1705525576::1::::<><>::
+tile_0054.png::CompressedTexture2D::3565955836013956129::1705525576::1705525576::1::::<><>::
+tile_0055.png::CompressedTexture2D::8766148461661026606::1705525576::1705525576::1::::<><>::
+tile_0056.png::CompressedTexture2D::7417671696946994163::1705525576::1705525576::1::::<><>::
+tile_0057.png::CompressedTexture2D::3990166395533617861::1705525576::1705525576::1::::<><>::
+tile_0058.png::CompressedTexture2D::2798503271168672979::1705525576::1705525576::1::::<><>::
+tile_0059.png::CompressedTexture2D::9220234868077284993::1705525576::1705525576::1::::<><>::
+tile_0060.png::CompressedTexture2D::2815557256235450122::1705525576::1705525576::1::::<><>::
+::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/::1705601690
+down0.png::CompressedTexture2D::6958393409308893318::1705601608::1705601672::1::::<><>::
+down1.png::CompressedTexture2D::4237331277795346138::1705601616::1705601672::1::::<><>::
+down2.png::CompressedTexture2D::5060032738304184956::1705601623::1705601672::1::::<><>::
+down3.png::CompressedTexture2D::5379996002512022269::1705601629::1705601672::1::::<><>::
+down4.png::CompressedTexture2D::7810226096104051993::1705601634::1705601672::1::::<><>::
+down5.png::CompressedTexture2D::4052084641981850174::1705601640::1705601672::1::::<><>::
+down6.png::CompressedTexture2D::7706594746690219179::1705601649::1705601672::1::::<><>::
+down7.png::CompressedTexture2D::2427818398084365759::1705601658::1705601672::1::::<><>::
+down8.png::CompressedTexture2D::1484047580740516695::1705601665::1705601672::1::::<><>::
+down9.png::CompressedTexture2D::7634948331387861682::1705601671::1705601672::1::::<><>::
+::res://SHIMMY/Assets/KenneyUI/Buttons/Start/::1705601877
+grey_button00.png::CompressedTexture2D::8782165421527779722::1705495026::1705525479::1::::<><>::
+grey_button01.png::CompressedTexture2D::6529474512822159275::1705495026::1705525479::1::::<><>::
+::res://SHIMMY/Assets/SFX/::1705602030
+::res://SHIMMY/Assets/SFX/DTMF Tones/::1705599856
+Audio 1.ogg::AudioStreamOggVorbis::3178174162974038408::1705599856::1705599856::1::::<><>::
+Audio 2.ogg::AudioStreamOggVorbis::1620358543197918623::1705599856::1705599856::1::::<><>::
+Audio 3.ogg::AudioStreamOggVorbis::6248533484508390008::1705599856::1705599856::1::::<><>::
+Audio 4.ogg::AudioStreamOggVorbis::3927936244439421784::1705599856::1705599856::1::::<><>::
+Audio 5.ogg::AudioStreamOggVorbis::6009528278103962141::1705599856::1705599856::1::::<><>::
+Audio 6.ogg::AudioStreamOggVorbis::5668416460664912444::1705599856::1705599856::1::::<><>::
+Audio 7.ogg::AudioStreamOggVorbis::7595112974970017965::1705599856::1705599856::1::::<><>::
+Audio 8.ogg::AudioStreamOggVorbis::7287535153997394863::1705599856::1705599856::1::::<><>::
+Audio 9.ogg::AudioStreamOggVorbis::2704403824350253395::1705599856::1705599856::1::::<><>::
+::res://SHIMMY/Assets/SFX/Solfege Syllables/::1705598620
+do.wav::AudioStreamWAV::3384900897977667644::1705495026::1705598620::1::::<><>::
+error.wav::AudioStreamWAV::5130009357460987285::1705495026::1705598620::1::::<><>::
+fa.wav::AudioStreamWAV::3889042668237130650::1705495026::1705598620::1::::<><>::
+la.wav::AudioStreamWAV::991964836667729594::1705495026::1705598620::1::::<><>::
+mi.wav::AudioStreamWAV::6092261219453044941::1705495026::1705598620::1::::<><>::
+re.wav::AudioStreamWAV::3873153472610104844::1705495026::1705598620::1::::<><>::
+si.wav::AudioStreamWAV::1911708263600287516::1705495026::1705598620::1::::<><>::
+sol.wav::AudioStreamWAV::3270261895773845672::1705495026::1705598620::1::::<><>::
+::res://SHIMMY/Scenes/::1705602059
+Main.tscn::PackedScene::6674439939065532395::1705503603::0::1::::<><>::uid://cpfb1b4fr2ocn::::res://SHIMMY/Theme/custom_theme.tres<>uid://brwg4tsprf2j7::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button08.png<>uid://bpbimopi370lm::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/red_button09.png<>uid://c8kw0nt10t8kl::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button11.png<>uid://dqpuy6cwgkt46::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/green_button12.png<>uid://bparqprwi2soj::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button11.png<>uid://dbihu61x8j2s5::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/yellow_button12.png<>uid://dpoah06rwaejh::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button11.png<>uid://dgn34we1bc4d::::res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button12.png<>res://SHIMMY/Scripts/Main.gd<>uid://c0a6qx5n1ic6f::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button01.png<>uid://bohw28w86i8om::::res://SHIMMY/Assets/SFX/do.wav<>uid://dxee8mrbago3k::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button00.png<>uid://bvn472awm8tcc::::res://SHIMMY/Assets/SFX/fa.wav<>uid://bvggjihtvls1i::::res://SHIMMY/Assets/SFX/re.wav<>uid://cs2ewf63f3jjh::::res://SHIMMY/Assets/SFX/mi.wav<>uid://cfdarfllmqf6d::::res://SHIMMY/Assets/SFX/error.wav
+Numbers.tscn::PackedScene::6674439939065532395::1705601795::0::1::::<><>::uid://cpfb1b4fr2ocn::::res://SHIMMY/Theme/custom_theme.tres<>res://SHIMMY/Scripts/Numbers.gd<>uid://dxee8mrbago3k::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button00.png<>uid://bw34ps7day6mr::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0057.png<>uid://baub2xls0sndf::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down7.png<>uid://bf4u67we2or4v::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0058.png<>uid://ve5bueyjaa3p::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down8.png<>uid://d4ml6k5holq6l::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0059.png<>uid://dg1oqo78kf0da::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down9.png<>uid://bq2m1iaaim47n::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0054.png<>uid://djjlju22udsgn::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down4.png<>uid://dw5ngjggbw3q5::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0055.png<>uid://ddxf77kbas8fv::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0056.png<>uid://bxy4ih2abpf8a::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down5.png<>uid://ba7tdtow2mpvc::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0051.png<>uid://djpywrwpuxe3i::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0052.png<>uid://bxkg5dhxrskp5::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/tile_0053.png<>uid://dh2eqv5rdqe3t::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down6.png<>uid://c0a6qx5n1ic6f::::res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button01.png<>uid://b1muhyqrb0xlq::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down1.png<>uid://bljscgepnfp1a::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 1.ogg<>uid://cedd88534wnno::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down2.png<>uid://xc6clfd0w136::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 2.ogg<>uid://cva3o0g7dv1fo::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 3.ogg<>uid://bv7yshxt714wi::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 4.ogg<>uid://ciwd0o3ws7gph::::res://SHIMMY/Assets/KenneyUI/Buttons/Numbers/Numbers_Down/down3.png<>uid://crvcb1710x718::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 5.ogg<>uid://cm028xr7k6x1u::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 6.ogg<>uid://dghenvunll8pd::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 7.ogg<>uid://cfdarfllmqf6d::::res://SHIMMY/Assets/SFX/Solfege Syllables/error.wav<>uid://db3evy8vwu8f8::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 8.ogg<>uid://besbevcgihr2b::::res://SHIMMY/Assets/SFX/DTMF Tones/Audio 9.ogg
+::res://SHIMMY/Scripts/::1705602065
 Main.gd::GDScript::-1::1705454043::0::1::::<>Control<>::
-::res://SHIMMY/Theme/::1705501179
-custom_theme.tres::Theme::5836103155934931025::1705501179::0::1::::<><>::uid://c37sgvofv51pm::::res://SHIMMY/Theme/KenneyUI/black_panel.png<>uid://b0dk4m55di46r::::res://SHIMMY/Theme/kenvector_future.ttf
-kenvector_future.ttf::FontFile::4147994543848751571::1705501113::1705501117::1::::<><>::
-::res://SHIMMY/Theme/KenneyUI/::1705500866
-black_panel.png::CompressedTexture2D::6805293822888312146::1705500845::1705500845::1::::<><>::
+Numbers.gd::GDScript::-1::1705600241::0::1::::<>Control<>::
+::res://SHIMMY/Theme/::1705601877
+custom_theme.tres::Theme::5836103155934931025::1705599318::0::1::::<><>::uid://c37sgvofv51pm::::res://SHIMMY/Theme/KenneyUI/black_panel.png<>uid://b0dk4m55di46r::::res://SHIMMY/Theme/kenvector_future.ttf
+kenvector_future.ttf::FontFile::4147994543848751571::1705495026::1705525479::1::::<><>::
+::res://SHIMMY/Theme/KenneyUI/::1705601877
+black_panel.png::CompressedTexture2D::6805293822888312146::1705495026::1705525479::1::::<><>::

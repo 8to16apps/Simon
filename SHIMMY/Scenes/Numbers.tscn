@@ -408,47 +408,47 @@ stream = ExtResource("24_ybjl0")
 [node name="Audio1" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("18_soble")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio2" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("19_m1aj6")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio3" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("20_305m3")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio4" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("21_721x4")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio5" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("22_bdb75")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio6" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("23_i2r2n")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio7" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("24_gpdhu")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio8" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("25_uy304")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [node name="Audio9" type="AudioStreamPlayer" parent="NumbersSFX"]
 unique_name_in_owner = true
 stream = ExtResource("26_lqamy")
-bus = &"Dialtones"
+bus = &"DialTones"
 
 [connection signal="pressed" from="PanelContainer/VBoxContainer/ButtonGrid/7/7" to="." method="_checkPlayerButton" binds= [0]]
 [connection signal="pressed" from="PanelContainer/VBoxContainer/ButtonGrid/8/8" to="." method="_checkPlayerButton" binds= [1]]

@@ -11,12 +11,12 @@
 [ext_resource type="Texture2D" uid="uid://dgn34we1bc4d" path="res://SHIMMY/Assets/KenneyUI/Buttons/Main/blue_button12.png" id="9_w2sns"]
 [ext_resource type="Script" path="res://SHIMMY/Scripts/Main.gd" id="10"]
 [ext_resource type="Texture2D" uid="uid://c0a6qx5n1ic6f" path="res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button01.png" id="10_27ram"]
-[ext_resource type="AudioStream" uid="uid://bohw28w86i8om" path="res://SHIMMY/Assets/SFX/do.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bohw28w86i8om" path="res://SHIMMY/Assets/SFX/Solfege Syllables/do.wav" id="11"]
 [ext_resource type="Texture2D" uid="uid://dxee8mrbago3k" path="res://SHIMMY/Assets/KenneyUI/Buttons/Start/grey_button00.png" id="11_h0k0q"]
-[ext_resource type="AudioStream" uid="uid://bvn472awm8tcc" path="res://SHIMMY/Assets/SFX/fa.wav" id="12"]
-[ext_resource type="AudioStream" uid="uid://bvggjihtvls1i" path="res://SHIMMY/Assets/SFX/re.wav" id="13"]
-[ext_resource type="AudioStream" uid="uid://cs2ewf63f3jjh" path="res://SHIMMY/Assets/SFX/mi.wav" id="14"]
-[ext_resource type="AudioStream" uid="uid://cfdarfllmqf6d" path="res://SHIMMY/Assets/SFX/error.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://bvn472awm8tcc" path="res://SHIMMY/Assets/SFX/Solfege Syllables/fa.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://bvggjihtvls1i" path="res://SHIMMY/Assets/SFX/Solfege Syllables/re.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://cs2ewf63f3jjh" path="res://SHIMMY/Assets/SFX/Solfege Syllables/mi.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cfdarfllmqf6d" path="res://SHIMMY/Assets/SFX/Solfege Syllables/error.wav" id="15"]
 
 [node name="Main" type="Control"]
 layout_mode = 3
