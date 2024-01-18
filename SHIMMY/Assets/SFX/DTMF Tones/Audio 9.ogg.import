@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://besbevcgihr2b"
+path="res://.godot/imported/Audio 9.ogg-920be7cfc1e98546bfea90437e372bcd.oggvorbisstr"
+
+[deps]
+
+source_file="res://SHIMMY/Assets/SFX/DTMF Tones/Audio 9.ogg"
+dest_files=["res://.godot/imported/Audio 9.ogg-920be7cfc1e98546bfea90437e372bcd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

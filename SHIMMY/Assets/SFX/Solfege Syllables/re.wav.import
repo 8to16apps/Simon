@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bvggjihtvls1i"
-path="res://.godot/imported/re.wav-bc3b5e5a3cb8ddb05cb2a4824381e712.sample"
+path="res://.godot/imported/re.wav-8928d453ea75d0f4829d19d62896a873.sample"
 
 [deps]
 
-source_file="res://SHIMMY/Assets/SFX/re.wav"
-dest_files=["res://.godot/imported/re.wav-bc3b5e5a3cb8ddb05cb2a4824381e712.sample"]
+source_file="res://SHIMMY/Assets/SFX/Solfege Syllables/re.wav"
+dest_files=["res://.godot/imported/re.wav-8928d453ea75d0f4829d19d62896a873.sample"]
 
 [params]
 

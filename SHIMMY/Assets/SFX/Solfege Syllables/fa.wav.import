@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://cfdarfllmqf6d"
-path="res://.godot/imported/error.wav-c59c7a89a40dd29ee30ba555d3303b77.sample"
+uid="uid://bvn472awm8tcc"
+path="res://.godot/imported/fa.wav-a81535537baa3a60968a904015afdd28.sample"
 
 [deps]
 
-source_file="res://SHIMMY/Assets/SFX/error.wav"
-dest_files=["res://.godot/imported/error.wav-c59c7a89a40dd29ee30ba555d3303b77.sample"]
+source_file="res://SHIMMY/Assets/SFX/Solfege Syllables/fa.wav"
+dest_files=["res://.godot/imported/fa.wav-a81535537baa3a60968a904015afdd28.sample"]
 
 [params]
 
